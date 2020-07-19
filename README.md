@@ -1,4 +1,5 @@
 # color_checker_detection_python
+Original version is [developed by C++](https://github.com/silicon-optronics-inc/color_checker_detection).  
 It’s a color checker detection utility for each pattern, and environment only requires OpenCV & NumPy.  
 ![image](https://github.com/silicon-optronics-inc/color_checker_detection_pyhon/blob/master/doc/demo.gif)  
 **※1** This image [source](https://imgur.com/VUiuRTq)
