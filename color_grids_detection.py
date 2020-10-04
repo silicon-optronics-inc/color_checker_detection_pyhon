@@ -96,7 +96,7 @@ def GetRotationPoint(Org_point, Img_width, Img_height, Angle):
     return rotation_point
 
 def DetectColorGrids(Color_checker_image):
-    img_gray = cv.cvtColor(Color_checker_image,cv.COLOR_RGB2GRAY)
+    img_gray = cv.cvtColor(Color_checker_image,cv.COLOR_BGR2GRAY)
 
     img_denoise = cv.fastNlMeansDenoising(img_gray,10,7,21)
 
